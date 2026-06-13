@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<Usuarios>
+  <Usuario Id="1">
+    <Nombre>Nombre_1</Nombre>
+    <PalabraPaso>PalabraPaso_1</PalabraPaso>
+    <Categoria>Categoria_1</Categoria>
+    <EsValido>false</EsValido>
+  </Usuario>
+  <Usuario Id="2">
+    <Nombre>Nombre_2</Nombre>
+    <PalabraPaso>PalabraPaso_2</PalabraPaso>
+    <Categoria>Categoria_2</Categoria>
+    <EsValido>true</EsValido>
+  </Usuario>
+  <Usuario Id="3">
+    <Nombre>Nombre_3</Nombre>
+    <PalabraPaso>PalabraPaso_3</PalabraPaso>
+    <Categoria>Categoria_3</Categoria>
+    <EsValido>false</EsValido>
+  </Usuario>
+  <Usuario Id="4">
+    <Nombre>Nombre_4</Nombre>
+    <PalabraPaso>PalabraPaso_4</PalabraPaso>
+    <Categoria>Categoria_4</Categoria>
+    <EsValido>true</EsValido>
+  </Usuario>
+  <Usuario Id="5">
+    <Nombre>Nombre_5</Nombre>
+    <PalabraPaso>PalabraPaso_5</PalabraPaso>
+    <Categoria>Categoria_5</Categoria>
+    <EsValido>false</EsValido>
+  </Usuario>
+  <Usuario Id="6">
+    <Nombre>Nombre_6</Nombre>
+    <PalabraPaso>PalabraPaso_6</PalabraPaso>
+    <Categoria>Categoria_6</Categoria>
+    <EsValido>true</EsValido>
+  </Usuario>
+  <Usuario Id="7">
+    <Nombre>Nombre_7</Nombre>
+    <PalabraPaso>PalabraPaso_7</PalabraPaso>
+    <Categoria>Categoria_7</Categoria>
+    <EsValido>false</EsValido>
+  </Usuario>
+  <Usuario Id="8">
+    <Nombre>Nombre_8</Nombre>
+    <PalabraPaso>PalabraPasoMAL_8</PalabraPaso>
+    <Categoria>Categoria_8</Categoria>
+    <EsValido>true</EsValido>
+  </Usuario>
+  <Usuario Id="9">
+    <Nombre>Nombre_9</Nombre>
+    <PalabraPaso>PalabraPasoMAL_9</PalabraPaso>
+    <Categoria>Categoria_9</Categoria>
+    <EsValido>false</EsValido>
+  </Usuario>
+</Usuarios>

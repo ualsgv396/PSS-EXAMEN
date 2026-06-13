@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="HolaMundo/HolaMundo.csproj" />
+  <Project Path="Libreria/Libreria.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+  <Project Path="TestLibreria/TestLibreria.csproj">
+    <Build Solution="Debug|*" Project="false" />
+  </Project>
+</Solution>

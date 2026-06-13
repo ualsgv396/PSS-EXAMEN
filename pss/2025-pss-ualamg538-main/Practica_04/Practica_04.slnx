@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Autentificacion.Tests/Autentificacion.Tests.csproj" />
+  <Project Path="AutentificacionApp/AutentificacionApp.csproj" />
+  <Project Path="AutentificacionUsuarios/Autentificacion.csproj" />
+</Solution>

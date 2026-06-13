@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="Conecta4ConsolaApp/Conecta4ConsolaApp.csproj" />
+  <Project Path="Conecta4Model/Conecta4Model.csproj" Id="f4476b4f-11bc-47e2-9b96-bb62f4f83899" />
+  <Project Path="Conecta4Test/Conecta4Test.csproj" Id="fd53385e-3186-4634-b842-d793e3d43df9" />
+</Solution>

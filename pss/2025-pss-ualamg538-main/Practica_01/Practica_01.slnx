@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="RecorridoSecuenciaTest/RecorridoSecuenciaTest.csproj" Id="ae9b2f56-3416-48c2-aee8-c60a71385fa4" />
+  <Project Path="Secuencia/Secuencia.csproj" Id="ffddd178-21ea-4d3a-a0b7-48845e7ed37e" />
+  <Project Path="TestColeccionUsuarioView/TestColeccionUsuarioView.csproj" Id="4b374425-09d6-4b10-baca-27c83d88fe4d" />
+  <Project Path="TestUsuarioView/TestUsuarioView.csproj" Id="d7eebc02-d56a-48db-876f-0705f76ee5f4" />
+  <Project Path="UsuarioView/UsuarioView.csproj" />
+</Solution>

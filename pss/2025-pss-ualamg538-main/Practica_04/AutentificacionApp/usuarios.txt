@@ -1,0 +1,9 @@
+1;Nombre_1;PalabraPaso_1;Categoria_1;false
+2;Nombre_2;PalabraPaso_2;Categoria_2;true
+3;Nombre_3;PalabraPaso_3;Categoria_3;false
+4;Nombre_4;PalabraPaso_4;Categoria_4;true
+5;Nombre_5;PalabraPaso_5;Categoria_5;false
+6;Nombre_6;PalabraPaso_6;Categoria_6;true
+7;Nombre_7;PalabraPaso_7;Categoria_7;false
+8;Nombre_8;PalabraPasoMAL_8;Categoria_8;true
+9;Nombre_9;PalabraPasoMAL_9;Categoria_9;false

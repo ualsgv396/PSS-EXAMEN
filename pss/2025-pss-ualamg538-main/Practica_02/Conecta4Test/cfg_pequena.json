@@ -1,0 +1,9 @@
+{
+  "Filas": 2,
+  "Columnas": 2,
+  "NumJugadores": 2,
+  "FichasParaGanar": 4,
+  "Idioma": "en",
+  "Criterio": "FilasColumnas",
+  "TiposJugador": [ "Humano", "IA-Minimax", "IA-Aleatoria" ]
+}

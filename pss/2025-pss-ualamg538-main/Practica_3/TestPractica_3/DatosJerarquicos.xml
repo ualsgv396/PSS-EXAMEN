@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Sistema>
+  <Aplicaciones>
+    <!-- WORD -->
+    <Aplicacion Id="1" Nombre="Word" Path="c:\word">
+      <Roles>
+        <Role Id="1" Nombre="Alumno" />
+        <Role Id="3" Nombre="Profesor" />
+      </Roles>
+      <Usuarios>
+        <!-- Diana - Alumno -->
+        <Usuario Id="1" UserName="Diana" Email="diana@example.com" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1980-01-09T03:00:00">
+          <Roles>
+            <RoleAsignado RoleId="1" RoleName="Alumno" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="1" IP="192.168.134.23" FechaInicio="2012-03-21T01:40:12" Duracion="1214" />
+            <Conexion Id="3" IP="192.168.134.28" FechaInicio="2011-04-22T02:30:22" Duracion="1874" />
+            <Conexion Id="4" IP="192.168.134.28" FechaInicio="2011-05-23T03:20:32" Duracion="167" />
+          </Conexiones>
+        </Usuario>
+
+        <!-- Antonio - Alumno -->
+        <Usuario Id="3" UserName="Antonio" Email="Antonio.pss-3@hotmail.es" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1980-02-06T07:00:00">
+          <Roles>
+            <RoleAsignado RoleId="1" RoleName="Alumno" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="8" IP="192.168.134.18" FechaInicio="2011-03-11T00:10:02" Duracion="14" />
+            <Conexion Id="9" IP="192.168.134.13" FechaInicio="2012-04-21T01:35:12" Duracion="11" />
+            <Conexion Id="10" IP="192.168.134.18" FechaInicio="2011-05-01T00:37:22" Duracion="84" />
+            <Conexion Id="11" IP="192.168.134.18" FechaInicio="2012-05-20T01:12:32" Duracion="168" />
+          </Conexiones>
+        </Usuario>
+
+        <!-- Ana - Alumno -->
+        <Usuario Id="4" UserName="Ana" Email="ana@example.com" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1982-04-07T09:00:00">
+          <Roles>
+            <RoleAsignado RoleId="1" RoleName="Alumno" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="12" IP="192.168.134.108" FechaInicio="2012-01-01T01:11:12" Duracion="141" />
+            <Conexion Id="14" IP="192.168.134.103" FechaInicio="2011-02-02T01:12:02" Duracion="111" />
+            <Conexion Id="16" IP="192.168.134.108" FechaInicio="2011-03-12T02:45:51" Duracion="84" />
+            <Conexion Id="17" IP="192.168.134.108" FechaInicio="2011-05-13T01:32:22" Duracion="568" />
+            <Conexion Id="18" IP="192.168.134.108" FechaInicio="2011-05-19T00:55:33" Duracion="2" />
+            <Conexion Id="19" IP="192.168.134.103" FechaInicio="2011-06-21T01:30:44" Duracion="11" />
+            <Conexion Id="20" IP="192.168.134.108" FechaInicio="2011-07-22T00:44:55" Duracion="84" />
+            <Conexion Id="21" IP="192.168.134.108" FechaInicio="2011-09-29T01:16:03" Duracion="368" />
+          </Conexiones>
+        </Usuario>
+
+        <!-- Jose - Profesor -->
+        <Usuario Id="5" UserName="Jose" Email="Jose.pss-5@ual.es" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1960-05-05T06:00:00">
+          <Roles>
+            <RoleAsignado RoleId="3" RoleName="Profesor" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="22" IP="193.161.134.18" FechaInicio="2011-03-01T02:31:57" Duracion="14" />
+          </Conexiones>
+        </Usuario>
+      </Usuarios>
+    </Aplicacion>
+
+    <!-- EXCEL -->
+    <Aplicacion Id="2" Nombre="Excel" Path="c:\excel">
+      <Roles>
+        <Role Id="2" Nombre="Alumno" />
+        <Role Id="4" Nombre="Profesor" />
+      </Roles>
+      <Usuarios>
+        <!-- Juan - Alumno -->
+        <Usuario Id="2" UserName="Juan" Email="Juan.pss-2@ual.es" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1979-04-06T05:00:00">
+          <Roles>
+            <RoleAsignado RoleId="2" RoleName="Alumno" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="6" IP="192.168.134.123" FechaInicio="2011-04-20T02:50:11" Duracion="114" />
+            <Conexion Id="7" IP="192.168.134.128" FechaInicio="2011-05-24T01:10:21" Duracion="1678" />
+          </Conexiones>
+        </Usuario>
+
+        <!-- Julio - Profesor -->
+        <Usuario Id="6" UserName="Julio" Email="julio@example.com" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1961-03-06T08:00:00">
+          <Roles>
+            <RoleAsignado RoleId="4" RoleName="Profesor" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="27" IP="193.161.134.18" FechaInicio="2012-01-21T06:33:55" Duracion="18" />
+            <Conexion Id="28" IP="193.161.134.18" FechaInicio="2011-06-28T08:34:54" Duracion="16" />
+            <Conexion Id="32" IP="193.162.134.15" FechaInicio="2011-05-13T18:10:27" Duracion="162" />
+          </Conexiones>
+        </Usuario>
+
+        <!-- Mercedes - Profesor -->
+        <Usuario Id="7" UserName="Mercedes" Email="mercedes@example.com" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="1962-05-02T09:00:00">
+          <Roles>
+            <RoleAsignado RoleId="4" RoleName="Profesor" />
+          </Roles>
+          <Conexiones>
+            <!-- Mercedes no tiene conexiones -->
+          </Conexiones>
+        </Usuario>
+      </Usuarios>
+    </Aplicacion>
+
+    <!-- GESTION USUARIOS -->
+    <Aplicacion Id="3" Nombre="GestionUsuarios" Path="c:\gestion">
+      <Roles>
+        <Role Id="5" Nombre="Administrador" />
+      </Roles>
+      <Usuarios>
+        <!-- Jose - Administrador -->
+        <Usuario Id="9" UserName="Jose" Email="jose.otro@example.com" 
+                 EsAnonimo="false" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="2000-05-05T06:00:00">
+          <Roles>
+            <RoleAsignado RoleId="5" RoleName="Administrador" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="24" IP="193.161.134.18" FechaInicio="2011-05-11T04:32:56" Duracion="11" />
+          </Conexiones>
+        </Usuario>
+      </Usuarios>
+    </Aplicacion>
+
+    <!-- EXPLORER -->
+    <Aplicacion Id="4" Nombre="Explorer" Path="c:\explorer">
+      <Roles>
+        <Role Id="6" Nombre="Invitado" />
+      </Roles>
+      <Usuarios>
+        <!-- Anonimo - Invitado -->
+        <Usuario Id="8" UserName="Anonimo" Email="anonimo@example.com" 
+                 EsAnonimo="true" EstaBloqueado="false" EmailConfirmed="true"
+                 FechaAlta="2000-01-01T00:00:00">
+          <Roles>
+            <RoleAsignado RoleId="6" RoleName="Invitado" />
+          </Roles>
+          <Conexiones>
+            <Conexion Id="31" IP="193.161.134.15" FechaInicio="2011-02-12T18:10:25" Duracion="38" />
+          </Conexiones>
+        </Usuario>
+      </Usuarios>
+    </Aplicacion>
+  </Aplicaciones>
+</Sistema>
